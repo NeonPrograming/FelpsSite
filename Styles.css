@@ -1,0 +1,151 @@
+body {
+    color: #40514E;
+    margin: 0px;
+    text-align: center;    /*Todo o texto do corpo centralizado*/
+    font-family: 'Merriweather', serif;   /*Fonte usada no site*/
+
+    
+}
+h1 {    
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;    /*Fonte usada para os título h1*/
+    font-size: 5.625em;    /* 100% = 16px = 1em */ /*Caso tenha outra medida para esse texto anterior a essa e seja em "em ou %", ela sera herdada para esse, somando todas as medidas colocadas para esse texto*/
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;    /*Fonte usada para os títulos h2*/
+    font-size: 2.5em;
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;    /*Fonte usada para os títulos h3*/
+    color: #11999E;
+
+}
+.Top {
+    background-color: #EAF6F6;    /*Cor de fundo para a div. do topo*/
+    width: 100%;    /*Largura da div. (100% = todo o corpo)*/
+    position: relative;
+    padding-top: 100px;    /*Preenchimento de 110px na parte de cima dessa div. (Serve para criar uma preenchimento de espaço sem considerar as informções)*/
+}
+.mid{
+    margin-left: 0;
+    margin-right: 0;
+}
+.Bot {
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 50px;
+    
+
+
+}
+.top-cloud {
+    position: absolute;    /*Deixa a nuvem de cima com o posicionamento dela de acordo com o fundo q ela esta inserida (no caso vai ser a div. do top)*/
+    right: 250px;    /*Posicionameto da nuvem na div. top, colocando ela a 300px de distancia do limite direito da div.)*/
+    top: 100px;     /*Posicionameto da nuvem na div. top, colocando ela a 120px de distancia do limite superior da div.)*/
+}
+.bottom-cloud {
+    position: absolute;      /*Deixa a nuvem de cima com o posicionamento dela de acordo com o fundo q ela esta inserida (no caso vai ser a div. do top)*/
+    left: 250px;      /*Posicionameto da nuvem na div. top, colocando ela a 300px de distancia do limite esquerdo da div.)*/
+    bottom: 300px;     /*Posicionameto da nuvem na div. top, colocando ela a 300px de distancia do limite inferior da div.)*/
+}
+.Man-image{
+    margin-top: 100px;
+}
+.profile {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 50px;
+    line-height: 2;   /*espaçamento entre as linhas*/
+}
+hr {
+    border-color: #EAF6F6;
+    border-style: none;
+    border-width: 5px;
+    border-top-style: dotted;
+    width: 3.5%;
+    height: 0;
+}
+
+
+.Image-computer {
+    border-radius: 100%;     /*Serve ara deixar a imagem em formato circular (100% deixa as bordas dela o mais circular possivel)*/
+    width: 25%;    /*A largura da imagem*/
+    float: left;    /*Colocar imagem flutuando com o texto ao redor. Recomendado usar só para quebra de texto*/
+    margin-right: 30px;
+}
+.Image-chiken {
+    border-radius: 100%;      /*Serve ara deixar a imagem em formato circular (100% deixa as bordas dela o mais circular possivel)*/
+    width: 25%;     /*A largura da imagem*/
+    float: right;    /*Colocar imagem flutuando com o texto ao redor. Recomendado usar só para quebra de texto*/
+    margin-left: 30px;
+}
+.skills {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.contact-me {
+    padding-top: 50px;
+    padding-bottom: 5.625rem;
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+}
+.Like-chiken {
+    margin-bottom: 70px;
+    
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    font-family: 'Merriweather', serif;
+}
+.footer-link:hover {
+    color: #EAF6F6;
+}
+.final {
+    color: #EAF6F6;
+    padding-top: 25px;
+    margin-bottom: 0;
+    font-size: 0.7em;
+}
+.justify {
+    text-align: justify;
+}
